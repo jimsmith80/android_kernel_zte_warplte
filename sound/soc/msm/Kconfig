@@ -100,7 +100,6 @@ config MSM_8x60_VOIP
 
 config SND_SOC_MSM_QDSP6_INTF
 	bool "SoC Q6 audio driver for MSM8960"
-	depends on MSM_QDSP6_APR
 	default n
 	help
 	 To add support for SoC audio on MSM8960.
